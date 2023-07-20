@@ -46,6 +46,7 @@
   "scripts": {
     "start": "react-scripts start",
     "eject": "react-scripts eject",
+    "build": "react-scripts build",
     "server": "cd server && npm run dev",
     "dev": "concurrently -n \"client,server\" -c \"bgBlue,bgYellow\" \"npm start\" \"npm run server\""
   },
