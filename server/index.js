@@ -23,7 +23,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"http://localhost:3000" || 'https://studynotion-learning.vercel.app',
+		origin:'https://studynotion-learning.vercel.app',
 		credentials:true,
 	})
 )
